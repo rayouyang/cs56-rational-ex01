@@ -8,6 +8,12 @@ public class Rational {
 	this.denom = 1;
     }
 
+    @Override
+    public String toString(){
+	return num + "/" + denom;
+
+    }
+    
     public Rational(int num, int denom) {
 	this.num = num;
 	this.denom = denom;
